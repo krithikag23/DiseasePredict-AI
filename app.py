@@ -13,7 +13,6 @@ st.write("Enter medical details to predict diabetes")
 feature_names = [
     "Age", "Sex", "BMI", "Blood Pressure", "S1", "S2", "S3", "S4", "S5", "S6"
 ]
-
 values = []
 for feature in feature_names:
     val = st.number_input(f"{feature}:", value=0.0)
