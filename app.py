@@ -6,7 +6,6 @@ import pickle
 model = pickle.load(open("diabetes_model.pkl", "rb"))
 scaler = pickle.load(open("scaler.pkl", "rb"))
 
-
 st.title("🩺 DiseasePredict AI - Diabetes Risk Classifier")
 st.write("Enter medical details to predict diabetes")
 
